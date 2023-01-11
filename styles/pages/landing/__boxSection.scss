@@ -1,0 +1,19 @@
+.boxSection{
+    padding: 4em 0em;
+    margin-top: -12%;
+    position: relative;
+    .box_wrapper{
+        background-color: #F8FFFF;
+        border-radius: 18px;
+        transition: .6s;
+        .box_div{
+            padding: 1.5em 1.5em;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            border-radius: 18px;
+           
+        }
+        &:hover {
+            transform: translate(0, -3%);
+        }
+    }
+}

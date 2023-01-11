@@ -1,0 +1,18 @@
+.keyTabs{
+    padding: 4em 0em;
+
+    .head{
+        text-align: center;
+        margin-bottom: 2em;
+    }
+
+    .keyTab_content_wrapper{
+        .nav.nav-tabs{
+            justify-content: center;
+            border-width:0px;
+            border-bottom:none;
+            --bs-nav-tabs-link-active-border-color:white;
+            --bs-nav-tabs-link-hover-border-color:white; 
+        }
+    }
+}

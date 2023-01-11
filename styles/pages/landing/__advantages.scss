@@ -1,0 +1,45 @@
+.advantages {
+    padding: 4em 0em;
+
+    .head {
+        text-align: center;
+        margin-bottom: 2em;
+
+        .headText {
+            max-width: 962px;
+            margin: auto
+        }
+    }
+
+    .advantage_box_wrapper {
+        margin: 1em 0em;
+
+        .content {
+            // box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+            padding: 1em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .content_Icon {
+                font-size: 35px;
+            }
+
+            .content_heading {
+                margin-top: 15px;
+            }
+
+            .content_para {
+                text-align: center;
+            }
+
+            small {
+                margin-left: 2px;
+            }
+
+
+        }
+
+    }
+}

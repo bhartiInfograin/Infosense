@@ -1,0 +1,27 @@
+.heroSection {
+    .hero_wrapper {
+        min-height: 943px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        // background-image: url('../../../public/images/hero_BG.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .hero_content {
+            margin-top: 4em;
+            color: white;
+            margin-right: 5em;
+
+            h1 {
+                font-size: 4em;
+            }
+
+            p {
+                font-size: 1.2em;
+                text-align: center;
+            }
+        }
+    }
+}

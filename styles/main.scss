@@ -1,0 +1,47 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+::-webkit-inner-spin-button {
+    display: none
+}
+
+@import './common/_mobileMenu';
+@import './common/_mainHeader';
+@import './common/_footer';
+@import './common/_contactUs';
+@import './pages/landing/_index';
+@import './pages/services/_main';
+@import './pages/blog/_allBlog';
+@import './pages/blog/_blogDetails';
+@import './pages/about/_main';
+@import './_privacyPolicy';
+@import './_terms_of_use';
+@import './pages/industry/_main';
+@import './_cookie_policy';
+@import './_contactUs';
+@import './pages/success_stories/_allStories';
+@import './pages/success_stories/_storyDetails';
+@import './pages/use_cases/_main';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&family=Space+Mono&display=swap');
+
+html,
+body {
+    height: 100%;
+}
+
+#__next {
+    height: inherit;
+}
+
+.main_wrapper {
+    min-height: 100%;
+    font-family: 'Roboto';
+    // margin: 0 auto -25px;
+}
